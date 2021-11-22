@@ -1,0 +1,28 @@
+git init  -- git ni o'rnatadi
+git status  -- tekshiradi
+git add  -- sahnaga qo'shadi
+	git add .  -- hamma o'zgarishlarni 
+	git add <file name>  -- fayl nomi bilan
+git commit -m"izoh"  -- sahnadagilarni saqlaydi izoh bilan
+git commit -a -m"izoh"- add+commit 
+git log  -- versiyalarni, commitlarni tarixini ko'rsatadi
+	git log --pretty
+git checkout -- . -- sahnadagi o'zgarishlrni bekor qiladi
+	git checkout -- <fayl nomi>
+git branch <branch nomi>  -- yangi branch ochadi
+	git checkout <branch nomi>  -- yangi branchga o'tadi
+git merge <yangi branch nomi>  -- Ochilgan branchni masterga qo'shadi
+git branch -D <branch nomi>  -- ochilgan branchni o'chiradi(master da bo'lish kerak)
+
+
+git remote add orign <manzil>
+git push -u orign master
+
+
+
+
+
+
+ls - element va papkalarni ko'rsatadi
+touch - yangi fayl yaratadi
+clear - tozalaydi
